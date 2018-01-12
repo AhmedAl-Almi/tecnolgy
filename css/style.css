@@ -1,0 +1,375 @@
+@import 'reset.css';
+
+.menu{
+	background-color: #92d209;
+	height: 70px;
+	border-bottom: 10px solid rgba(231,236,183,1);
+}
+
+.menu h3{
+	float: left;
+	padding: 20px 40px;
+}
+
+.menu h3 a{
+	text-decoration: none;
+	color: white;
+}
+
+.menu ul{
+	float: right;
+	margin-right: 70px;
+	margin-top: 25px;
+}
+
+.menu ul li{
+	float: left;
+	list-style-type: none;		
+	
+}
+.menu ul .m{
+    border-left:1px ridge rgba(0,0,0,0.2);	
+}
+
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 10px 40px;	
+}
+
+.menu ul li a:hover{
+	background-color: rgba(231,236,183,1);
+	padding: 10px 40px 28px 40px;
+	color: black;
+}
+
+/*------------------img-logo-----------------*/
+
+.content{
+	width: 90%;
+	margin-left: 5%;
+}
+
+#img-logo{
+	margin: 30px 10px;
+	display: inline-block;
+}
+
+#fresh{
+	color: #809f37;
+	font-size: 2em;
+
+}
+
+.parg{
+	background-color: #333;
+	height: 250px;
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+    
+}
+
+
+#address{
+	padding: 100px 50px 100px 80px;
+	float: left;
+}
+
+#business{
+	color: white;
+	letter-spacing: 9px;
+}
+
+
+.parg ul{
+	float: left;
+	padding-top: 70px;
+}
+
+.parg ul li{
+	padding-top: 5px;
+	list-style-type: none;
+	border-left: 1px solid white;
+	padding-left: 30px;
+}
+
+.parg ul li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+.parg img{
+    width: 655px;
+    height: 550px;
+    margin-top: -121px;  
+    position: absolute;
+}
+
+/*------------------body1-----------------*/
+
+.body-left{
+	width: 70%;
+	
+	margin-bottom: 50px;
+    float: left;
+}
+
+.body1{
+	background-image: url(../img/background.jpg);
+	width: 100%;
+	height: 150px;
+	margin-top: 15px;
+	border: 1px solid black;
+}
+
+#head1{
+	padding: 40px 0px 0px 70px;
+	color: white;
+	font-size: 1.6em;
+	
+}
+
+.body1 span{
+	float: left;
+}
+
+#par-unmatched{
+	padding: 7px 0px 0px 70px;
+	font-size: 1.4em;
+	color: white;
+}
+
+#click_her{
+	float: right;
+    height: 150px;
+}
+#click_her img{
+    height: 150px;
+}
+/*------------------body2-sub-----------------*/
+
+.body2{
+	margin-top: 50px;
+	
+}
+
+.body2 h2 span{
+	color: green;
+	padding-left: 30px;
+}
+
+.body2-sub{
+	width: 100%;
+	border-bottom: 2px dotted #333;
+	height: 300px;
+}
+.body-left .body2 .body2-sub img{
+	float: left;
+	width: 25%;
+	margin: 30px 10px 0px 30px;
+	border-radius: 5px;
+}
+
+.body-left .body2 .body2-sub #par-body2{
+	float: right;
+	margin-top: 30px;
+	width: 66%;
+	padding: 0px 30px 0px 2px;
+	
+}
+
+#readmore-body2{
+	margin: 35px 30px;
+	float: left;
+	background-color: #333;
+	text-decoration: none;
+	color: white;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-size: 1.2em;
+}
+
+/*------------------body3-----------------*/
+
+.body3{
+	width: 100%;
+	
+	overflow: hidden;
+}
+
+#title-body3{
+	text-align: left;
+	width: 200px;
+	padding: 10px 30px;
+}
+
+#title-body3 span{
+	color: green;
+}
+
+#par-body3{
+	padding: 30px;
+}
+
+.body3-sub{
+	width: 100%;
+	height: 190px;
+	
+}
+
+.body3-sub ul{
+	float: left;
+	
+	margin-left: 10px;
+}
+
+.body3-sub ul li{
+	padding: 15px 30px;
+	list-style-position: inside;
+	list-style-type: square;
+}
+.body3-sub img{
+	float: right;
+	margin-right: 40px;
+	border-radius: 5px;
+	width: 230px;
+}
+
+#readmore-body3{
+	margin: -10px 0px 5px 40px;
+	float: left;
+	background-color: #333;
+	text-decoration: none;
+	color: white;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-size: 1.2em;
+}
+
+.body-right{
+    float: right;
+    width: 29%;
+   
+    margin-top: 15px;
+}
+
+.list1 h3{
+    padding:20px 0 10px 30px;
+    background-color: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.list1{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px 15px 0px 0px;
+}
+
+.list1 .red-services{
+    color: red;
+}
+
+.list1 .ul-list1{
+    background-color: #f6f6f6;
+    border: 1px solid #f0f0f0;
+}
+.list1 .ul-list1 li{
+    list-style-type: circle;
+    padding:10px 20px;
+    list-style-position:inside; 
+    
+   
+}
+.list1 .ul-list1 li a{
+    color: black;
+}
+.body-right a img{
+    margin: 10px 0px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+
+.list2{
+    background-color: #f6f6f6;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+
+.list2 h3{
+    padding:20px 0 10px 30px;
+    background-color: #fafafa;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    
+}
+
+.list2 h3 .green-services{
+    color: green;
+}
+
+.list2 p{
+    padding: 20px 30px;
+    
+}
+
+
+.list2 ul li{
+    padding:10px 20px;
+    list-style-position:inside; 
+   
+}
+
+.list2 ul li a{
+     color: deepskyblue;
+}
+
+
+.list2 #readmore{
+    margin: 35px 30px;
+	float: left;
+	background-color: #333;
+	text-decoration: none;
+	color: white;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-size: 1.2em;
+}
+
+.footer{
+    background-color: #333;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+
+.footer ul{
+    padding: 50px 300px 10px 400px;
+    color: white;
+    display: inline-block;
+}
+.footer ul li{
+    float: left;
+    list-style-type: none;
+    
+}
+
+.footer ul .a{
+    border-left: 1px solid white;
+}
+
+.footer ul li a{
+    color: white;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+
+.footer p{
+    text-align: center;
+    color: white;
+}
+
+
